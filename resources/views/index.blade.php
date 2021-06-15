@@ -7,7 +7,7 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -16,14 +16,14 @@
 
         <style>
             body {
-                font-family: 'Nunito', sans-serif;
+                font-family: 'Montserrat', sans-serif;
             }
         </style>
 
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
-    <body class="antialiased">
-        <div id="app" class="flex items-center bg-gray-100 min-h-screen">
+    <body class="antialiased text-blue bg-white">
+        <div id="app" class="">
         <the-app></the-app>
         </div>
         <script src="{{ asset('js/app.js') }}"></script>
