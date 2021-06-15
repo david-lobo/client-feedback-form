@@ -11,11 +11,11 @@ class ClientFeedbackService
     {
         $this->create($data);
 
-        /*Mail::send('mail', ['data' => $data], function($message) {
+        Mail::send('mail', ['data' => $data], function($message) {
             $message->to(env('CLIENT_FEEDBACK_MAIL_TO'), 'Client Feedback')
                 ->subject('Client Feedback Form Received');
             $message->from(env('CLIENT_FEEDBACK_MAIL_TO'), env('MAIL_FROM_NAME'));
-         });*/
+         });
 
         return true;
     }
